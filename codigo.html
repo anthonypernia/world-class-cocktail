@@ -15,7 +15,7 @@
 
 <body>
     <div class="container-2">
-        <h2>Para acceder a tu ritual inseparable introduce tu codigo Handshake</h2>
+        <h2>Para acceder a tu ritual Inseparable introduce tu codigo Handshake</h2>
         <img class="img-2" src="aguita.jpg" alt="">
 
         <div>
@@ -38,7 +38,7 @@
 <script>
     function validate() {
         var x = document.forms["form-validate"]["form-input"].value;
-        if (x == "bulleit") {
+        if (x.toLowerCase() == "bulleit") {
             document.getElementById("pass").click();
             return false;
         }
