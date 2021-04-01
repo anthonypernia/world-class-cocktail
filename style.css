@@ -12,7 +12,7 @@ body {
 .container-1 .txt-1 {
   color: white;
 }
-@media (min-width: 700px) {
+@media (min-width: 1570px) {
   .container-1 .txt-1 {
     font-style: normal;
     font-family: "Roboto", sans-serif;
@@ -61,6 +61,110 @@ body {
   }
   .container-4 img {
     width: 40rem;
+  }
+}
+@media (max-width: 1569px) {
+  .container-1 .txt-1 {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .container-1 a {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-1 .img-1 {
+    width: 15rem;
+    padding: 0rem;
+  }
+  .container-1 .img-2 {
+    width: 20rem;
+    padding: 1rem;
+  }
+  .container-2 img {
+    width: 30rem;
+  }
+  .container-2 h2{
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .btn-2 {
+    font-size: 20px;
+  }
+  .container-3 img {
+    width: 25rem;
+  }
+  .container-3 ul li h4{
+    font-size: 25px;
+  }
+  .container-3 h2{
+    font-size: 35px;
+  }
+  .container-3 h3{
+    font-size: 25px;
+  }
+  .btn-3 {
+    font-size: 20px;
+  }
+  .container-4 img {
+    width: 40rem;
+  }
+}
+@media (max-width: 1199px) {
+  .container-1 .txt-1 {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .container-1 a {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container-1 .img-1 {
+    width: 15rem;
+    padding: 0rem;
+  }
+  .container-1 .img-2 {
+    width: 20rem;
+    padding: 1rem;
+  }
+  .container-2 img {
+    width: 15rem;
+  }
+  .container-2 h2{
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .btn-2 {
+    font-size: 15px;
+  }
+  .container-3 img {
+    width: 15rem;
+  }
+  .container-3 ul li h4{
+    font-size: 15px;
+  }
+  .container-3 h2{
+    font-size: 18px;
+  }
+  .container-3 h3{
+    font-size: 15px;
+  }
+  .btn-3 {
+    font-size: 15px;
+  }
+  .container-4 img {
+    width: 22rem;
   }
 }
 @media (max-width: 699px) {
