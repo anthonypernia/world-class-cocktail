@@ -1,13 +1,10 @@
 body {
   background-color: black;
   display: flex;
-
   justify-content: center;
 }
 
 .container-1 {
-  height: 100vh;
-  width: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,11 +32,35 @@ body {
     width: 30rem;
     padding: 2rem;
   }
+  .container-2 img {
+    width: 40rem;
+  }
   .container-2 h2{
     font-style: normal;
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: 100;
+  }
+  .btn-2 {
+    font-size: 20px;
+  }
+  .container-3 img {
+    width: 30rem;
+  }
+  .container-3 ul li h4{
+    font-size: 20px;
+  }
+  .container-3 h2{
+    font-size: 40px;
+  }
+  .container-3 h3{
+    font-size: 25px;
+  }
+  .btn-3 {
+    font-size: 20px;
+  }
+  .container-4 img {
+    width: 40rem;
   }
 }
 @media (max-width: 699px) {
@@ -56,27 +77,48 @@ body {
     font-weight: 300;
   }
   .container-1 .img-1 {
-    width: 20rem;
+    width: 12rem;
+
+    padding: 0rem;
   }
   .container-1 .img-2 {
-    width: 1rem;
-    padding: 0rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 1rem;
+  }
+  .container-2 img {
+    width: 15rem;
   }
   .container-2 h2{
     font-style: normal;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
+  }
+  .btn-2 {
+    font-size: 15px;
+  }
+  .container-3 img {
+    width: 15rem;
+  }
+  .container-3 ul li h4{
+    font-size: 15px;
+  }
+  .container-3 h2{
+    font-size: 18px;
+  }
+  .container-3 h3{
+    font-size: 15px;
+  }
+  .btn-3 {
+    font-size: 15px;
+  }
+  .container-4 img {
+    width: 22rem;
   }
 }
 
-.container-1 .img-1 {
-  width: 20rem;
-}
-.container-1 .img-2 {
-  width: 30rem;
-  padding: 2rem;
-}
+
 .btn-1 {
   background-color: black;
   border-color: white;
@@ -101,9 +143,7 @@ body {
   color: white;
   text-align: center;
 }
-.container-2 img {
-  width: 30rem;
-}
+
 .btn-2 {
   background-color: black;
   border-color: white;
@@ -114,14 +154,22 @@ body {
   color: black;
 }
 
+.btn-3 {
+  background-color: black;
+  border-color: white;
+}
+.btn-3:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
 .container-3 h2,
 .container-3 h3 {
   color: white;
   text-align: center;
 }
-.container-3 img {
-  width: 30rem;
-}
+
 .container-3 ul li {
   color: rgb(212, 175, 55);
 }
@@ -139,9 +187,7 @@ body {
     url("cocktail.jpg");
 }
 
-.container-4 img {
-  width: 40rem;
-}
+
 
 .container-4b {
   background-color: red;
@@ -150,3 +196,5 @@ body {
   min-height: 100vh;
   min-width: 100vh;
 }
+
+
